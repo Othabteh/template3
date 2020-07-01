@@ -1,0 +1,101 @@
+        body {
+            width: 1349px;
+        }
+        /* ----------------header--------------- */
+        
+        header div a {
+            color: black;
+            text-decoration: none;
+            text-align: center;
+            font-family: Verdana, sans-serif;
+            font-size: 15px;
+            line-height: 1.5;
+            letter-spacing: 4px;
+            padding: 8px 16px;
+        }
+        
+        header div a:hover {
+            background-color: rgb(202, 195, 195);
+        }
+        
+        #nav-bar {
+            display: inline-block;
+            width: 100%;
+            padding: 20px 0px 20px 20px;
+            position: fixed;
+            z-index: 2;
+            background-color: white;
+        }
+        
+        #nav-bar-right {
+            display: inline-block;
+            float: right;
+            padding-right: 20px;
+        }
+        
+        #img-div {
+            position: relative;
+            width: 100%;
+        }
+        
+        #header-img-div {
+            position: absolute;
+            top: 45%;
+            margin-top: 16px;
+            margin-left: 528px;
+            font-family: Verdana, sans-serif;
+            font-size: 15px;
+            line-height: 1.5;
+            text-align: center;
+        }
+        
+        #header-img {
+            width: 100%;
+        }
+        
+        #BR {
+            color: #fff!important;
+            background-color: #000!important;
+            padding: 8px 8px!important;
+            opacity: 0.75;
+            font-size: 36px!important;
+            font-family: "Segoe UI", Arial, sans-serif;
+            font-weight: bolder;
+            text-align: center;
+            letter-spacing: 4px;
+            margin-right: 10px;
+        }
+        
+        #archt {
+            color: #f1f1f1!important;
+            font-size: 36px!important;
+            font-family: "Segoe UI", Arial, sans-serif;
+            font-weight: 400;
+            letter-spacing: 4px;
+        }
+        /* ----------------main--------------- */
+        /* ----------------section-1--------------- */
+        
+        #sec-1-div-1 {
+            width: 100%;
+            display: inline-block;
+            margin-left: 25px;
+        }
+        
+        #sec-1-div-2 {
+            width: 100%;
+            display: inline-block;
+            margin-left: 25px;
+        }
+        
+        main section div img {
+            width: 22.5%;
+            margin-left: 15px;
+        }
+        
+        main section h2 {
+            margin: 50px 25px;
+            padding: 20px 20px;
+            font-size: 25px;
+            border-bottom: 1px solid rgb(241, 236, 236);
+        }
